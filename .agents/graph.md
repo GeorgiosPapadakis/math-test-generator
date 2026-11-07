@@ -24,16 +24,16 @@ Node fields: `type`, `status`, `tags`, `depends_on`, `produced_by`, `verified_by
 
 ### MT-S1 — Repo setup
 - type: milestone
-- status: active
+- status: done
 - tags: [MT-S1]
 - depends_on: none
 - produced_by: Giorgos
 - verified_by: Master
-- notes: Public repo, `docs/` and `.agents/` committed, branch protection on `main`.
+- notes: Done 2026-11-08. Repo https://github.com/GeorgiosPapadakis/math-test-generator (public). Ruleset `main rule` active: PR required, force pushes blocked, no bypass. Verified by a rejected direct push (GH013). Status checks are added to the ruleset after MT-M1's first green CI run.
 
 ### MT-M1 — Repo skeleton, domain and CI
 - type: milestone
-- status: planned
+- status: active
 - tags: [MT-M1]
 - depends_on: MT-S1
 - produced_by: worker

@@ -31,11 +31,13 @@ ID note: `D<n>` in this plan and in `docs/` means the graph node `MT-D<n>`.
 
 ## 1. Current milestone
 
-**Setup (Giorgos)**, then `MT-M1`.
+`MT-M1 — Repo skeleton, domain and CI` (active).
+
+Repo: https://github.com/GeorgiosPapadakis/math-test-generator
 
 ## 2. Setup (Giorgos, before MT-M1)
 
-- [ ] MT-S1 — Create the public GitHub repo. Commit `docs/` (scope, architecture, ADRs) and `.agents/` (PLAN, graph). Turn on branch protection for `main` (pull request plus green CI required).
+- [x] MT-S1 — Create the public GitHub repo. Commit `docs/` (scope, architecture, ADRs) and `.agents/` (PLAN, graph). Turn on branch protection for `main` (pull request plus green CI required).
   Verify: the repo URL is sent to the Master; `main` rejects a direct push.
 
 ## 3. Milestones
@@ -193,3 +195,5 @@ Do each task in a week when its milestone is not running, so the weekly budget h
 
 - 2026-11-07: Stages 2 and 3 confirmed. Stage 4 draft written.
 - 2026-11-07: PLAN approved. `graph.md` created. Stage 5 open. Current: MT-S1 (Giorgos).
+- 2026-11-08: MT-S1 verified by the Master. Evidence: a direct push to `main` was rejected with `GH013: Repository rule violations` (ruleset `main rule`, active, no bypass, PR required, force pushes blocked). Repo is public. Commits use the GitHub noreply email. MT-M1 is active.
+- 2026-11-08: Follow-up for Giorgos after MT-M1's first green CI run: add "Require status checks to pass" with the CI job to the `main rule` ruleset.
