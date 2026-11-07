@@ -23,4 +23,4 @@ Setup, usage and results sections arrive with the milestones that produce them.
 
 ## License
 
-To be decided before the first public release.
+Source-available, all rights reserved. Use, copying or redistribution needs written permission. See `LICENSE`.
